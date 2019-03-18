@@ -36,7 +36,8 @@
     "mocha": "^2.1.0",
     "negotiator": ">=0.6.1",
     "sinon": "^1.13.0",
-    "sinon-chai": "^2.7.0"
+    "sinon-chai": "^2.7.0",
+    "superagent": ">=3.7.0"
   },
   "main": "index.coffee",
   "scripts": {
