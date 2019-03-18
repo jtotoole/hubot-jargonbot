@@ -1,3 +1,5 @@
+require('coffee-register');
+
 Helper = require('hubot-test-helper')
 chai = require 'chai'
 
@@ -7,21 +9,11 @@ helper = new Helper('../src/jargonbot.coffee')
 
 describe 'jargonbot', ->
   beforeEach ->
-    @room = helper.createRoom()
+    @room = helper.createRoom({httpd: false})
 
   afterEach ->
     @room.destroy()
 
-  it 'responds to hello', ->
-    @room.user.say('alice', '@hubot hello').then =>
-      expect(@room.messages).to.eql [
-        ['alice', '@hubot hello']
-        ['hubot', '@alice hello!']
-      ]
-
-  it 'hears orly', ->
-    @room.user.say('bob', 'just wanted to say orly').then =>
-      expect(@room.messages).to.eql [
-        ['bob', 'just wanted to say orly']
-        ['hubot', 'yarly']
-      ]
+  it 'responds to a buzzword', ->
+    @room.user.say('alice', '@hubot mindshare').then =>
+      expect(@room.messages[1][1]).to.be.a('string')

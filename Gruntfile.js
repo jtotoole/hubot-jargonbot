@@ -1,4 +1,5 @@
 'use strict';
+require('coffee-register');
 
 module.exports = function (grunt) {
 

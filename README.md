@@ -21,8 +21,8 @@ Then add **hubot-jargonbot** to your `external-scripts.json`:
 ## Sample Interaction
 
 ```
-user1>> hubot hello
-hubot>> hello!
+user1>> we really need to increase mindshare
+hubot>> continually actualize turnkey e-services
 ```
 
 ## NPM Module

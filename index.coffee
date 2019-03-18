@@ -1,3 +1,4 @@
+require('coffee-register');
 fs = require 'fs'
 path = require 'path'
 
