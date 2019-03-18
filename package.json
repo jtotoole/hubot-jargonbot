@@ -24,6 +24,7 @@
     "debug": ">=2.6.9",
     "extend": ">=2.0.2",
     "fresh": ">=0.5.2",
+    "growl": ">=1.10.0",
     "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13",
     "grunt-contrib-watch": "~0.6.1",
