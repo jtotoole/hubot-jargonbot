@@ -1,7 +1,7 @@
 {
   "name": "hubot-jargonbot",
   "description": "Jargonbot listens for business buzzwords and responds in kind.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "@jtotoole",
   "license": "MIT",
   "keywords": "jargon, jargonbot, buzzwords, hubot, hubot-scripts",
