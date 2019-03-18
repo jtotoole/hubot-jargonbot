@@ -7,10 +7,10 @@
   "keywords": "jargon, jargonbot, buzzwords, hubot, hubot-scripts",
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-jargonbot.git"
+    "url": "git://github.com/jtotoole/hubot-jargonbot.git"
   },
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-jargonbot/issues"
+    "url": "https://github.com/jtotoole/hubot-jargonbot/issues"
   },
   "dependencies": {
     "coffee-register": "^2.2.0"
